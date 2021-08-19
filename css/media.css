@@ -1,0 +1,157 @@
+ /* Extra small or col devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { ... }
+/* Header Start */
+
+    /* Header End*/
+
+    /*/* Banner Start*/
+    
+    /* Banner End*/
+
+     /* Tour Start*/
+    
+    /* Tour End*/
+
+     /* Pricing Start*/
+    
+    /* Pricing End*/
+
+    /* Service Start*/
+    
+    /* Service End*/
+
+    /* Statistics Start*/
+    
+    /*Statistics End*/
+
+    /* Testimonial Start*/
+    
+    /* Testimonial End*/
+
+   /* Subscribe Start*/
+    
+    /* Subscribe End*/
+
+     /* footer Start*/
+    
+    /* footer End*/
+
+ /* Small devices or sm (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) { ... }
+/* Header Start */
+
+    /* Header End*/
+
+    /*/* Banner Start*/
+    
+    /* Banner End*/
+
+     /* Tour Start*/
+    
+    /* Tour End*/
+
+     /* Pricing Start*/
+    
+    /* Pricing End*/
+
+    /* Service Start*/
+    
+    /* Service End*/
+
+    /* Statistics Start*/
+    
+    /*Statistics End*/
+
+    /* Testimonial Start*/
+    
+    /* Testimonial End*/
+
+   /* Subscribe Start*/
+    
+    /* Subscribe End*/
+
+     /* footer Start*/
+    
+    /* footer End*/
+ /* Medium devices or tab or md (tablets, 768px and up)  */
+ @media (min-width: 768px) and (max-width: 991.98px) { ... }
+/* Header Start */
+
+    /* Header End*/
+
+    /*/* Banner Start*/
+    
+    /* Banner End*/
+
+     /* Tour Start*/
+    
+    /* Tour End*/
+
+     /* Pricing Start*/
+    
+    /* Pricing End*/
+
+    /* Service Start*/
+    
+    /* Service End*/
+
+    /* Statistics Start*/
+    
+    /*Statistics End*/
+
+    /* Testimonial Start*/
+    
+    /* Testimonial End*/
+
+   /* Subscribe Start*/
+    
+    /* Subscribe End*/
+
+     /* footer Start*/
+    
+    /* footer End*/
+
+ /* Large devices or lg (desktops, 992px and up) */  
+ @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+/* Header Start */
+
+    /* Header End*/
+
+    /*/* Banner Start*/
+    
+    /* Banner End*/
+
+     /* Tour Start*/
+    
+    /* Tour End*/
+
+     /* Pricing Start*/
+    
+    /* Pricing End*/
+
+    /* Service Start*/
+    
+    /* Service End*/
+
+    /* Statistics Start*/
+    
+    /*Statistics End*/
+
+    /* Testimonial Start*/
+    
+    /* Testimonial End*/
+
+   /* Subscribe Start*/
+    
+    /* Subscribe End*/
+
+     /* footer Start*/
+    
+    /* footer End*/
+ /* Extra Large devices or xl (desktops, 992px and up) */ 
+ @media (min-width: 1200px) and (max-width: 1399.98px) { ... }
+
+ /* Extra Extra large devices or xxl (large desktops, 1400px and up) */
+ @media (min-width: 1400px) { ... } 
+
+

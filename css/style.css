@@ -1,0 +1,208 @@
+/* Common Start */
+
+body{
+    font-family: Oswald Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+}
+
+
+/* Common End */
+
+/* Header Start */
+
+header{
+    background-color: #303030;
+    padding: 20px;;
+}
+
+.container-fluid
+{
+    padding: 0 40px;
+}
+
+.c_nav{
+    color: white;
+}
+.logo{
+    margin-left: 0;
+}
+.menu ul li a{
+    font-family: Oswald Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color:white !important;
+    padding:10px 20px 0 !important;
+}
+
+.menu ul li a:hover{
+    color: #e8631c !important;
+}
+
+
+    /* Header End*/
+
+    /*/* Banner Start*/
+    
+.banner{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.b_h1{
+    padding-top: 220px;
+}
+.b_p{
+    margin: 20px 0;
+}
+
+.b_register{
+    width: 324px;
+    height: 70px;
+    background-color: #e8631c;
+    border: none;
+    font-size: 16px !important;
+    border-radius: 0.25rem;
+    transition: .3s;
+}
+
+.b_register:hover{
+    color: white !important;
+}
+
+    /* Banner End*/
+
+     /* Tour Start*/
+.tour{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: url(../images/tour.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}   
+
+.t_h1{
+    padding: 0 250px;
+}
+
+.t_p{
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 0 250px;
+}
+
+.t_feature{
+    margin-top: 70px;
+    width: 350px;
+    height: 500px;
+    background-color: #303030;
+    padding-right: 70px;
+}
+
+.t_feature:hover{
+    transition: .3s;
+ }
+
+    /* Tour End*/
+
+     /* Pricing Start*/
+
+   
+.price{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: url(../images/pricing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}   
+
+.pr_h1{
+    padding: 0 250px;
+}
+
+.pr_p{
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 0 250px;
+}
+
+.pr_feature{
+    margin-top: 70px;
+    width: 350px;
+    height: 500px;
+    background-color: #e8631c;
+    padding-right: 70px;
+}
+.pr_text{
+    text-align: center;
+}
+.b_price{
+    width: ;background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+    /* Pricing End*/
+
+    /* Service Start*/
+
+    /* Service End*/
+
+    /* Statistics Start*/
+    
+.statistics{
+    background-color: #303030;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+.st_h1{
+    padding: 0 250px;
+}
+
+.st_p{
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 0 250px;
+}
+
+.st_feature{
+    margin-top: 70px;
+    background-color: #303030 ;
+    padding-right: 70px;
+}
+
+.st_text{
+    text-align: center;
+}
+
+.st_h1{
+
+}
+
+.st_p{
+    text-align: center;
+}
+
+
+    /*Statistics End*/
+
+    /* Testimonial Start*/
+    
+    /* Testimonial End*/
+
+   /* Subscribe Start*/
+    
+    /* Subscribe End*/
+
+     /* footer Start*/
+    
+    /* footer End*/

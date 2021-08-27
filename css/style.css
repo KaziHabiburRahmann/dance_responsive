@@ -19,7 +19,7 @@ header{
 
 .container-fluid
 {
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .c_nav{
@@ -27,18 +27,105 @@ header{
 }
 .logo{
     margin-left: 0;
+    margin-right: 300px !important;
 }
-.menu ul li a{
+
+.nv_brand{
+    margin-right: -3rem !important;
+}
+
+
+.menu ul{
+    margin-right: 100px;
+}
+
+.menu ul li a {
     font-family: Oswald Regular;
     font-size: 16px;
     font-weight: 400;
-    color:white !important;
-    padding:10px 20px 0 !important;
+    color: white !important;
+    padding-top: 12px;
+    padding-right: 25px !important;
+    transition: 0.3s;
 }
+
 
 .menu ul li a:hover{
     color: #e8631c !important;
 }
+
+.nav_nav {
+    color: none !important;
+    border-color: white !important;
+    transition: 0.15s;
+}
+
+
+.n_search{
+    top: 5px;
+    }
+
+.n_search a{
+
+}
+
+.n_search a::after{
+    display: none;
+}
+
+.n_search a:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem #e8631c;
+}
+
+ /* etai n_search a diye korlam
+ .dropdown-toggle::after {
+    display: none;
+}
+*/
+
+.n_search a i {
+    font-size: 16px;
+    color: white;
+}
+
+.s_input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+}
+
+.s_input:focus {
+    box-shadow:none;
+}
+
+.s_btn{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    color: #8e8e8e;
+}
+
+.s_btn i{
+    background-color: none;
+}
+
+.cdm{
+    min-width: 350px;
+    padding: 6px 6px;
+    border-radius: 0.0rem;
+    color: #8e8e8e;
+}
+
+
+.cdm[data-bs-popper] {
+    top: 40px;
+    left: -305px;
+    margin-top: 0;
+}
+
 
 
     /* Header End*/
@@ -97,18 +184,34 @@ header{
     padding: 0 250px;
 }
 
-.t_feature{
+
+.t_feature {
     margin-top: 70px;
-    width: 350px;
-    height: 500px;
+    margin-right: 60px;
+    width: 300px;
+    height: 395px;
     background-color: #303030;
-    padding-right: 70px;
+    padding: 0px;
+    border-radius: 0.35rem;
 }
 
-.t_feature:hover{
-    transition: .3s;
- }
+.t_feature:last-child{
 
+    margin-right:0px;
+}
+
+
+.a1{
+    width: 100%;
+}
+.f_text {
+    padding: 12px;
+    text-align: center;
+}
+
+.p_margin {
+    margin: 0px 20px !important;
+}
     /* Tour End*/
 
      /* Pricing Start*/
@@ -123,36 +226,90 @@ header{
     background-position: top;
 }   
 
-.pr_h1{
-    padding: 0 250px;
-}
 
-.pr_p{
-    margin-top: 15px;
-    font-size: 20px;
-    padding: 0 250px;
-}
-
-.pr_feature{
+.pr_feature {
     margin-top: 70px;
-    width: 350px;
-    height: 500px;
+    margin-right: 60px;
+    width: 300px;
+    height: 395px;
     background-color: #e8631c;
-    padding-right: 70px;
+    padding: 0px;
+    border-radius: 0.35rem;
 }
+
+.pr_feature:last-child{
+
+    margin-right:0px;
+}
+
+.p_icon {
+    margin-left: 31px;
+    width: 85%;
+    height: 65%;
+    padding: 20px 70px;
+}
+
 .pr_text{
     text-align: center;
 }
-.b_price{
-    width: ;background-color: black;
-    color: white;
+.b_price {
+    margin: 22px;
+    width: 200px;
+    height: 50px;
     text-align: center;
+    background-color: #303030;
+    color: white;
+    border-radius: 0.35rem;
+    box-shadow: none;
+    transition: 0.3s;
 
+}
+
+.b_price:hover{
+    background-color: #ffffff;
+    color: #303030;
 }
 
     /* Pricing End*/
 
     /* Service Start*/
+
+.serviceA{
+    background-image: url(../images/AD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}  
+
+.adimg{
+    width: 100%;
+}
+.AD {
+
+}
+
+.S_AD{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.S_AD h1{
+    padding-top: 200px;
+}    
+
+.serviceB{
+    background-image: url(../images/BD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}  
+.B_AD{
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.B_AD h1{
+    padding-top: 200px;
+}  
+
 
     /* Service End*/
 
@@ -168,39 +325,100 @@ header{
     padding: 0 250px;
 }
 
-.st_p{
-    margin-top: 15px;
-    font-size: 20px;
-    padding: 0 250px;
+.st_feature {
+    margin: 100px 60px 0 0;
+    width: 300px;
+    background-color: #303030;
+    padding: 0px;
+    border-radius: 0.35rem
 }
 
-.st_feature{
-    margin-top: 70px;
-    background-color: #303030 ;
-    padding-right: 70px;
+.st_feature:last-child{
+
+    margin-right:0px;
 }
 
-.st_text{
-    text-align: center;
+
+.st_p {
+    font-size: 22px;
+    margin-top: 25px;
 }
-
-.st_h1{
-
-}
-
-.st_p{
-    text-align: center;
-}
-
 
     /*Statistics End*/
 
     /* Testimonial Start*/
     
+.testimonial{
+    padding-top: 300px;
+    padding-bottom: 320px;
+    background-image: url(../images/bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.test_p {
+    margin: 0px 256px 50px !important;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
     /* Testimonial End*/
 
    /* Subscribe Start*/
-    
+
+.subscribe{
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-image: url(../images/bk5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.sbs {
+    padding: 0px 230px;
+}
+
+.sbs_p {
+    font-size: 22px;
+    margin: 30px 0;
+}
+
+
+.sbs_input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 0.375rem 1.75rem;
+    font-size: 20px;
+    border-radius: 0.0rem;
+}
+
+.sbs_input:focus {
+    box-shadow:none;
+}
+
+.sbs_btn{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #303030;
+    border: none;
+    border-radius: 0.0rem;
+    color: white;
+}
+
+.sbsf{
+    padding: 0 !important;
+}
+
+
+
+
     /* Subscribe End*/
 
      /* footer Start*/

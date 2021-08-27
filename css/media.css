@@ -1,11 +1,80 @@
  /* Extra small or col devices (portrait phones, less than 576px) */
- @media (max-width: 575.98px) { ... }
-/* Header Start */
+ @media (max-width: 575.98px) {
 
-    /* Header End*/
+/* header start */
 
-    /*/* Banner Start*/
+header {
+    padding: 25px 0;
+}
+
+.logo {
+    font-size: 27px;
+}
+
+.menu ul {
+    margin-right: -25px;
+}
+
+.menu ul li a {
+    font-size: 14px;
+    color: white;
+    padding: 7px 6px 0px;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.n_search {
+    float: right;
+    top: 140px;
+    left: 65px;
+}
+
+.n_search a:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #e8631c;
+}
+
+.n_search a i{
+    font-size: 14px;
+}
+
+.cdm {
+    min-width: 300px;
+    padding: 6px 6px;
+}
+
+.cdm[data-bs-popper] {
+    top: 42px;
+    left: -250px;
+    margin-top: 0;
+}
+
+.s_input{
+    height: 40px;
+    padding: 2px 5px;
+    font-size: 16px;
+}
+
+.s_btn{
+    height: 40px;
+}
+
+.sbsf{
+    padding: 5px 0 !important;
+}
+
+/* header end */
+}
+
+
+
+    /* Banner Start*/
     
+    /*banner start*/
+
+
     /* Banner End*/
 
      /* Tour Start*/
@@ -37,10 +106,46 @@
     /* footer End*/
 
  /* Small devices or sm (landscape phones, 576px and up) */
- @media (min-width: 576px) and (max-width: 767.98px) { ... }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+
 /* Header Start */
 
+
+.navbar-nav{
+    float: right;
+}
+
+.menu ul {
+    margin-right: -40px;
+}
+
+.menu ul li a {
+    padding: 12px 5px 0px;
+}
+
+
+.n_search {
+    float: right;
+    top: 177px;
+    left: 75px;
+}
+
+.n_search a:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #e8631c;
+}
+
+.cdm[data-bs-popper] {
+    top: 40px;
+    left: -310px;
+    margin-top: 0;
+}
+
+
     /* Header End*/
+
+}
+
 
     /*/* Banner Start*/
     
@@ -74,10 +179,49 @@
     
     /* footer End*/
  /* Medium devices or tab or md (tablets, 768px and up)  */
- @media (min-width: 768px) and (max-width: 991.98px) { ... }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+
 /* Header Start */
 
+
+.navbar-nav{
+    float: right;
+}
+
+.menu ul {
+    margin-right: -30px;
+}
+
+.menu ul li a {
+    padding: 12px 5px 0px;
+}
+
+
+
+.n_search {
+    float: right;
+    top: 178px;
+    left: 88px;
+}
+
+.n_search a:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.10rem #e8631c;
+}
+
+.cdm[data-bs-popper] {
+    top: 40px;
+    left: -310px;
+    margin-top: 0;
+}
+
+
+
     /* Header End*/
+
+}
+
+
 
     /*/* Banner Start*/
     
